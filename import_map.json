@@ -1,7 +1,7 @@
 {
   "imports": {
-    "@/": "./",
-    "std_testing": "./test/utils/std_testing.ts",
+    "@mod": "./mod.ts",
+    "$std/": "https://deno.land/std@0.192.0/",
     "tsd": "https://esm.sh/v111/*tsd@0.28.0"
   },
   "scopes": {
