@@ -22,6 +22,8 @@
      */
   "tasks": {
     "start": "deno run --unstable example/main.ts",
+    "test": "deno test -A --unstable test",
+    "test-watch": "deno test -A --unstable --watch test",
     "esm:add": "deno run -A https://esm.sh/v111 add",
     "esm:update": "deno run -A https://esm.sh/v111 update",
     "esm:remove": "deno run -A https://esm.sh/v111 remove"
