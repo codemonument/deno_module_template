@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run main.ts",
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@mod": "../mod.ts",
+    "$std/": "https://deno.land/std@0.192.0/"
+  }
+}
